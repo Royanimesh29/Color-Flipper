@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: white;
+    height: 3em;
+}
+.nav-center h4{
+    color: cyan;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    
+}
+.nav-links li{
+    margin-right: 9em;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-links li a:hover{
+    font-weight: bold;
+    color: aqua;
+}
+.container{
+    text-align: center;
+    margin-top: 5em;
+}
+.container button{
+    margin-top: 3em ;
+    width: 15vw;
+}
